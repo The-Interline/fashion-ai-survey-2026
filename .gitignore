@@ -1,0 +1,25 @@
+# Never add private survey materials to this repository.
+# The public companion is a derived, disclosure-safe release only.
+
+raw/
+private/
+responses*.xlsx
+*.xlsx
+*.csv
+*.tsv
+*.json
+*.pdf
+*dashboard*
+*analysis*private*
+*respondent*
+*verbatim*
+.DS_Store
+
+# survey-analysis.md is an intentional future exception: it will be the final public article.
+!survey-analysis.md
+
+# Keep local editor and environment state out of source control.
+.env
+.venv/
+node_modules/
+__pycache__/
